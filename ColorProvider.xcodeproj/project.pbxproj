@@ -15,6 +15,10 @@
 		084F082A1B98F6880065446C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 084F08281B98F6880065446C /* LaunchScreen.storyboard */; };
 		084F08351B98F6880065446C /* ColorProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 084F08341B98F6880065446C /* ColorProviderTests.m */; };
 		084F08401B98F6880065446C /* ColorProviderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 084F083F1B98F6880065446C /* ColorProviderUITests.m */; };
+		084F084F1B98F69B0065446C /* ColorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 084F084E1B98F69B0065446C /* ColorProvider.m */; settings = {ASSET_TAGS = (); }; };
+		084F08521B98F8D20065446C /* GreenColorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 084F08511B98F8D20065446C /* GreenColorProvider.m */; settings = {ASSET_TAGS = (); }; };
+		084F08551B98F8DE0065446C /* RedColorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 084F08541B98F8DE0065446C /* RedColorProvider.m */; settings = {ASSET_TAGS = (); }; };
+		084F08581B98FE940065446C /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 084F08571B98FE940065446C /* CustomView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		084F083B1B98F6880065446C /* ColorProviderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorProviderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		084F083F1B98F6880065446C /* ColorProviderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorProviderUITests.m; sourceTree = "<group>"; };
 		084F08411B98F6880065446C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		084F084D1B98F69B0065446C /* ColorProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorProvider.h; sourceTree = "<group>"; };
+		084F084E1B98F69B0065446C /* ColorProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorProvider.m; sourceTree = "<group>"; };
+		084F08501B98F8D20065446C /* GreenColorProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenColorProvider.h; sourceTree = "<group>"; };
+		084F08511B98F8D20065446C /* GreenColorProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenColorProvider.m; sourceTree = "<group>"; };
+		084F08531B98F8DE0065446C /* RedColorProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedColorProvider.h; sourceTree = "<group>"; };
+		084F08541B98F8DE0065446C /* RedColorProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedColorProvider.m; sourceTree = "<group>"; };
+		084F08561B98FE940065446C /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		084F08571B98FE940065446C /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,14 @@
 				084F08281B98F6880065446C /* LaunchScreen.storyboard */,
 				084F082B1B98F6880065446C /* Info.plist */,
 				084F081A1B98F6880065446C /* Supporting Files */,
+				084F084D1B98F69B0065446C /* ColorProvider.h */,
+				084F084E1B98F69B0065446C /* ColorProvider.m */,
+				084F08501B98F8D20065446C /* GreenColorProvider.h */,
+				084F08511B98F8D20065446C /* GreenColorProvider.m */,
+				084F08531B98F8DE0065446C /* RedColorProvider.h */,
+				084F08541B98F8DE0065446C /* RedColorProvider.m */,
+				084F08561B98FE940065446C /* CustomView.h */,
+				084F08571B98FE940065446C /* CustomView.m */,
 			);
 			path = ColorProvider;
 			sourceTree = "<group>";
@@ -270,7 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				084F08551B98F8DE0065446C /* RedColorProvider.m in Sources */,
+				084F084F1B98F69B0065446C /* ColorProvider.m in Sources */,
 				084F08221B98F6880065446C /* ViewController.m in Sources */,
+				084F08521B98F8D20065446C /* GreenColorProvider.m in Sources */,
+				084F08581B98FE940065446C /* CustomView.m in Sources */,
 				084F081F1B98F6880065446C /* AppDelegate.m in Sources */,
 				084F081C1B98F6880065446C /* main.m in Sources */,
 			);

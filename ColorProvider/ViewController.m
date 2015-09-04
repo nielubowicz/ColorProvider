@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "RedColorProvider.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet RedColorProvider *redColorProvider;
 
 @end
 
