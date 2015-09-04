@@ -11,10 +11,14 @@
 @implementation ColorProvider
 
 - (void)awakeFromNib {
-    self.owner.view;
+    [self.owner addObserver:self forKeyPath:@"view" options:NSKeyValueObservingOptionNew context:nil];
+}
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context {
     for (UIView *destinationView in self.destinationViews) {
         [self provideColorToDestinationView:destinationView];
     }
+    [self.owner removeObserver:self forKeyPath:@"view"];
 }
 
 - (UIColor *)color {

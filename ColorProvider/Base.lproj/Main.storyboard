@@ -67,9 +67,9 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <customObject id="kDo-a9-U4P" customClass="RedColorProvider">
                     <connections>
-                        <outlet property="destinationV" destination="pBc-PS-qZG" id="Zdz-a9-iXW"/>
                         <outlet property="owner" destination="BYZ-38-t0r" id="54b-If-3Ur"/>
                         <outletCollection property="destinationViews" destination="3GC-Fj-Zd1" id="gJr-oe-OIf"/>
+                        <outletCollection property="destinationViews" destination="pBc-PS-qZG" id="rWl-Y9-cPM"/>
                     </connections>
                 </customObject>
                 <customObject id="JO2-6R-uTe" customClass="GreenColorProvider">
